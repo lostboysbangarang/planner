@@ -1,0 +1,86 @@
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  background-color: var(--dark);
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 0.1rem solid black;
+  padding: 1rem;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  padding: auto;
+  border-bottom: 1rem solid hsl(141, 95%, 43%);
+  border-radius: 0;
+}
+
+.lead {
+  padding-bottom: 1rem;
+}
+
+.description {
+  white-space: pre-wrap;
+  font-family: "Itim", cursive;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 8rem;
+  border-top: 0.1rem solid white;
+}
+
+.hour {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 1.6rem;
+  /* background-color: #ffffff; */
+  color: #000000;
+  display: flex;
+  align-items: center;
+  /* border-top: 0.1rem dashed #000000; */
+}
+
+.past {
+  background-color: hsla(0, 0%, 83%, 0.8);
+  color: white;
+}
+
+.present {
+  background-color: hsla(5, 95%, 43%, 0.8);
+  color: white;
+}
+
+.future {
+  background-color: hsla(151, 78%, 49%, 0.8);
+  color: white;
+}
+
+.saveBtn {
+  border-left: 0.1rem solid black;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  background-color: #04ae40;
+  color: white;
+}
+
+.saveBtn:hover {
+  font-size: 2rem;
+  transition: all 0.3s ease-in-out;
+}

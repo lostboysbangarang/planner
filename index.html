@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Nunito&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron jumbotron-fluid bg-dark text-success">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for planning your work day!</p>
+      <div id="currentDate">
+        <p id="today"></p>
+        <p id="today-time" class="lead"></p>
+    </div>
+    </header>
+    <div class="container" id="planner">
+      <!-- Timeblocks go here -->
+      <div class="row time-block" id="9">
+        <span class="col-1 hour pl-1">9am</span>
+        <textarea class="col-10 description"></textarea>
+        <button class="col-1 saveBtn btn btn-success fas fa-sd-card"></button>
+      </div>
+      <div class="row time-block" id="10">
+        <span class="col-1 hour pl-1">10am</span>
+        <textarea class="col-10 description"></textarea>
+        <button class="col-1 saveBtn btn btn-success fas fa-sd-card"></button>
+      </div>
+      <div class="row time-block" id="11">
+        <span class="col-1 hour pl-1">11am</span>
+        <textarea class="col-10 description"></textarea>
+        <button class="col-1 saveBtn btn btn-success fas fa-sd-card"></button>
+      </div>
+      <div class="row time-block" id="12">
+        <span class="col-1 hour pl-1">12pm</span>
+        <textarea class="col-10 description"></textarea>
+        <button class="col-1 saveBtn btn btn-success fas fa-sd-card"></button>
+      </div>
+      <div class="row time-block" id="13">
+        <span class="col-1 hour pl-1">1pm</span>
+        <textarea class="col-10 description"></textarea>
+        <button class="col-1 saveBtn btn btn-success fas fa-sd-card"></button>
+      </div>
+      <div class="row time-block" id="14">
+        <span class="col-1 hour pl-1">2pm</span>
+        <textarea class="col-10 description"></textarea>
+        <button class="col-1 saveBtn btn btn-success fas fa-sd-card"></button>
+      </div>
+      <div class="row time-block" id="15">
+        <span class="col-1 hour pl-1">3pm</span>
+        <textarea class="col-10 description"></textarea>
+        <button class="col-1 saveBtn btn btn-success fas fa-sd-card"></button>
+      </div>
+      <div class="row time-block" id="16">
+        <span class="col-1 hour pl-1">4pm</span>
+        <textarea class="col-10 description"></textarea>
+        <button class="col-1 saveBtn btn btn-success fas fa-sd-card"></button>
+      </div>
+      <div class="row time-block" id="17">
+        <span class="col-1 hour pl-1">5pm</span>
+        <textarea class="col-10 description"></textarea>
+        <button class="col-1 saveBtn btn btn-success fas fa-sd-card"></button>
+      </div>
+    </div>
+
+    <!-- Script tags -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
